@@ -1,4 +1,4 @@
-# aws_s3 `fastlane` Plugin
+# bzc_s3 `fastlane` Plugin
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-bzc_s3)
 
@@ -10,7 +10,7 @@ This project is a [fastlane](https://github.com/fastlane/fastlane) plugin. To ge
 fastlane add_plugin bzc_s3
 ```
 
-## About aws_s3
+## About bzc_s3
 
 Upload a new build to Amazon S3 to distribute the build to beta testers. Works for both Ad Hoc and Enterprise signed applications. This step will generate the necessary HTML, plist, and version files for you.
 
@@ -19,7 +19,7 @@ Upload a new build to Amazon S3 to distribute the build to beta testers. Works f
 Add the `bzc_s3` action after the `gym` step:
 
 ```ruby
-aws_s3
+bzc_s3
 ```
 
 You can also customize a lot of options:
