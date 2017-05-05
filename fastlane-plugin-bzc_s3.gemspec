@@ -5,7 +5,7 @@ require 'fastlane/plugin/bzc_s3/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-bzc_s3'
-  spec.version       = Fastlane::AwsS3::VERSION
+  spec.version       = Fastlane::BzcS3::VERSION
   spec.author        = %q{Penture Kevin}
   spec.email         = %q{kevinpenture.pro@gmail.com}
 
